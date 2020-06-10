@@ -2,9 +2,10 @@
 
 A single Python script which updates a Windows desktop wallpaper to the most recent image of the US from the GOES-16 satellite. 
 
-## TODO
+## Requirements
 
-Since I wrote this script, NOAA has made the GOES data more readily available. Most of this code is unnecessary now that a 5000x3000 JPG is available directly from NOAA at https://cdn.star.nesdis.noaa.gov/GOES16/ABI/CONUS/GEOCOLOR/latest.jpg
+ * Python 2.7/3.4+
+ * requests Python library
 
 ## Running Periodically
 
@@ -20,7 +21,3 @@ To run periodically, I have a task setup in Windows Task Scheduler with the foll
    * Run only when user is logged on.
 
 There's probably a better way, but it works.
-
-## License
-
-Copyright Paul Harris. Please ask before sharing as I don't want to overwhelm the Colorado State server with requests. I've tried to make it as easy on the server as possible, but still.
