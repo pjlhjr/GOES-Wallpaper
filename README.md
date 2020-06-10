@@ -2,6 +2,8 @@
 
 A single Python script which updates a Windows desktop wallpaper to the most recent image of the US from the GOES-16 satellite. 
 
+![Sample GOES-16 GEOCOLOR image](sample_wallpaper.jpg)
+
 ## Requirements
 
  * Python 2.7/3.4+
